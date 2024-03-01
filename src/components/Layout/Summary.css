@@ -1,0 +1,23 @@
+.main {
+  position: absolute;
+  height: 200px;
+  width: 600px;
+  left: 30%;
+  background-color: rgba(24, 22, 22); /* Semi-transparent background color */
+  color: white;
+  text-align: center;
+  margin: -180px auto; /* Adjust the negative margin to overlap from behind */
+  box-sizing: border-box;
+  z-index: 2;
+  padding: 20px; /* Add padding for better readability */
+}
+
+.main h1{
+  margin-bottom: 10px;
+ 
+}
+.main p{
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 8px;
+}
