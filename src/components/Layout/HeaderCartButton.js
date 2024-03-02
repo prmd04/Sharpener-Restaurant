@@ -2,9 +2,9 @@ import React from "react";
 import classes from './HeaderCartButton.module.css';
 import { FaShoppingCart } from "react-icons/fa";
 
-const HeaderCartButton = () => {
+const HeaderCartButton = (props) => {
   return (
-    <button className={classes.button}>
+    <button className={classes.button} onClick={props.onClick}>
       <span className={classes.icon}>
         <FaShoppingCart />
       </span>
