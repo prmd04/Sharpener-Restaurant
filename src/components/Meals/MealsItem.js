@@ -17,7 +17,7 @@ const MealsItem = (props) => {
       price: props.price
     })
   }
-  console.log(cartCtx);
+
   return (
     <li className={classes.meal}>
       <div >
